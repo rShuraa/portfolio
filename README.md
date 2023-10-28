@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Portafolio Personal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es mi portafolio personal, una muestra de mis proyectos y habilidades, diseñado y desarrollado en colaboración con una diseñadora experta en UX/UI, <a target="_blank" href="https://www.linkedin.com/in/elenalopezuxui/">Elena López</a>.
 
-## Available Scripts
+## Acerca del Proyecto
 
-In the project directory, you can run:
+Mi portafolio personal es una plataforma que muestra mi trabajo y experiencias profesionales. Fue creado para destacar mis habilidades como desarrollador web y para mostrar mis proyectos más relevantes. La colaboración con una diseñadora de UX/UI permitió lograr un diseño atractivo y centrado en la experiencia del usuario.
 
-### `npm start`
+## Características Principales
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Diseño Atractivo**: El proyecto presenta un diseño atractivo y centrado en la usabilidad, diseñado por un experto en UX/UI.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Información de Contacto**: <a target="_blank" href="https://www.linkedin.com/in/jonaygc/">Linkedin</a>.
 
-### `npm test`
+## Tecnologías Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React: Para la construcción de la interfaz de usuario y las vistas dinámicas.
 
-### `npm run build`
+- HTML y CSS: Para la estructura y estilos del sitio web.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Lottie:  utiliza un formato de archivo JSON para definir y describir las animaciones.
