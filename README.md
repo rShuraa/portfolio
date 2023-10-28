@@ -18,4 +18,4 @@ Mi portafolio personal es una plataforma que muestra mi trabajo y experiencias p
 
 - HTML y CSS: Para la estructura y estilos del sitio web.
 
-- Lottie:  utiliza un formato de archivo JSON para definir y describir las animaciones.
+- Lottie:  utiliza un formato de archivo JSON para definir y describir las animaciones
