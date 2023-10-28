@@ -1,0 +1,90 @@
+.home{
+    background: linear-gradient(to bottom, #1a191d00,#1a191d30, #1a191d), url('../images/homeImage.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: -120px; */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    flex-direction: column;
+    z-index: 1;
+    background-position: center center;
+    padding: 0 40px;
+}
+
+.circleBox {
+    position: absolute;
+    top: 20%;
+    left: 56%;
+    animation: moveLeftRight 1.2s linear infinite alternate;
+}
+
+.circle {
+    box-shadow: inset 0 0 30px 0 #fff, inset 20px 0 30px #ffd400, inset -20px 0 30px red, inset 20px 0 300px #ff40d6, inset -20px 0 300px #e3ff4b, 0 0 50px #fff, -10px 0 100px #fbff00, 10px 0 80px #f55;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 10vw;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    text-shadow: 1px 3px 11px rgba(0,0,0,.3);
+    color: white;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    text-shadow: 1px 3px 11px rgba(0,0,0,.3);
+    text-align: center;
+    color: white;
+}
+
+.scrollIcon {
+    position: absolute;
+    bottom: 60px;
+    max-width: 60px;
+}
+
+@keyframes moveLeftRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+
+@media screen and (max-width: 800px) { 
+
+    .home {
+        padding: 0 20px;
+    }
+    
+    .title {
+        font-size: 15vw;
+    }
+
+    .circleBox {
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        animation: moveLeftRight 1.2s linear infinite alternate;
+    }
+
+    .subtitle {
+        font-size: 5vw;
+        text-transform: uppercase;
+        letter-spacing: 2.2px;
+        text-shadow: 1px 3px 11px rgba(0,0,0,.3);
+        text-align: center;
+        color: white;
+    }
+}
