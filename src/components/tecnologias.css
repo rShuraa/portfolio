@@ -1,0 +1,60 @@
+#tecnologias {
+    background: #1a191d;
+    min-height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    flex-direction: column;
+    z-index: 1;
+    padding: 0 40px;
+}
+
+#tecnologias h2 {
+    text-align: center;
+    color: white;
+    font-family: "Poppins",Sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.tecnologias {
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.tecnologias > div {
+    padding: 40px 30px;
+    border-style: solid;
+    border-width: 3px 1.5px 3px 3px;
+    border-color: #a3a3a3;
+}
+
+.tecnologias h3 {
+    color: white;
+    font-family: "Poppins",Sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.tecnologias h3 span {
+    display: block;
+}
+
+.techSubtitles {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.techSubtitles i {
+    font-size: 40px;
+    color: white;
+}
