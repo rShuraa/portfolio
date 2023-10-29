@@ -6,15 +6,14 @@ function Home() {
     useEffect(() => {
       const anim = lottie.loadAnimation({
         container: document.getElementById('animationScroll'),
-        renderer: 'svg', // o 'canvas', según tus necesidades
-        loop: true, // Reproducción infinita
-        autoplay: true, // Reproducir automáticamente
-        animationData: require('../assets/Lottie/animationScroll.json'), // Ruta al archivo JSON de la animación
+        renderer: 'svg',
+        loop: true, 
+        autoplay: true, 
+        animationData: require('../assets/Lottie/animationScroll.json'),
       });
 
     return () => anim.destroy();
 }, []);
-    // El array vacío [] asegura que este efecto se ejecute solo una vez después de que el componente se monte
   
     return (
       <section className="home">
@@ -29,4 +28,3 @@ function Home() {
   }
   
   export default Home;
-  

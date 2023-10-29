@@ -1,5 +1,6 @@
 import React from "react";
-import "./tecnologias.css"
+import "./tecnologias.css";
+import codeImg from "../images/code.png";
 
 function Tecnologias() {
   return (
@@ -13,17 +14,16 @@ function Tecnologias() {
 
           <div>
             <div className="techSubtitles">
-              <img/>
+            <i className="fa-solid fa-code"></i>
               <h3>
-                <span>Software</span>Development
+                <span className="magentaUnderline">Responsive</span><span>Development</span>
               </h3>
             </div>
 
 
             <div className="techDesc">
               <p>
-                Experienced in both functional and OOP: Dart, Python, Java,
-                JavaScript, TypeScript.
+                Diseño sitios web responsivos con Bootstrap y Tailwind, enfocándome en la estética, usabilidad y adaptabilidad.
               </p>
             </div>
           </div>
@@ -34,17 +34,16 @@ function Tecnologias() {
 
           <div>
             <div className="techSubtitles">
-              <img/>
+            <i className="fa-brands fa-react"></i>
               <h3>
-                <span>Software</span>Development
+                <span className="reactUnderline">React</span><span>Development</span>
               </h3>
             </div>
 
 
             <div className="techDesc">
               <p>
-                Experienced in both functional and OOP: Dart, Python, Java,
-                JavaScript, TypeScript.
+              Utilizo React para crear aplicaciones web interactivas, atractivas, eficientes y dinámicas con fluidez.
               </p>
             </div>
           </div>
@@ -55,17 +54,16 @@ function Tecnologias() {
 
           <div>
             <div className="techSubtitles">
-              <i className="fa-brands fa-react"></i>
+            <i className="fa-brands fa-laravel"></i>
               <h3>
-                <span>Software</span><span>Development</span>
+                <span className="laravelUnderline">Laravel</span><span>Development</span>
               </h3>
             </div>
 
 
             <div className="techDesc">
               <p>
-                Experienced in both functional and OOP: Dart, Python, Java,
-                JavaScript, TypeScript.
+              Utilizo Laravel para desarrollar aplicaciones web robustas y escalables con PHP de manera eficiente.
               </p>
             </div>
           </div>
@@ -76,6 +74,12 @@ function Tecnologias() {
 
 
         </div>
+
+        <aside className="codeImg">
+          <img src={codeImg} />
+        </aside>
+
+        
       </section>
     </>
   );
